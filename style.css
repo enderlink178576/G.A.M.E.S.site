@@ -409,3 +409,46 @@ button:hover {
   padding: 40px 20px;
   text-align: center;
 }
+
+.accueil {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Image circulaire derrière le texte */
+.accueil::before {
+    content: "";
+    position: absolute;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    height: 100%;
+
+    background-image: url("groupe\ assossiatif.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-radius: 50%;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    z-index: 0;
+}
+
+/* Texte devant l'image */
+.accueil .contenu {
+    position: relative;
+    z-index: 1;
+}
+.col-blue{
+  color: blue;
+}
+.col-pink{
+  color: pink;
+}
+.col-white{
+  color: white;
+}
