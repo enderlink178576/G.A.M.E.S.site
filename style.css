@@ -388,3 +388,24 @@ button:hover {
     margin: 0 8%;
   }
 }
+/* test*/
+.fond-video {
+    position: absolute;
+    inset: 0;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    border-radius: 1020px;
+}
+.empl-img{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  text-align: center;
+}
